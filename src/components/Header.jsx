@@ -15,11 +15,14 @@ const Header = () => {
         <li>
           <NavLink to="/register">Register</NavLink>
         </li>
+        <li>
+          <NavLink to="/heroRegister">Hero Register</NavLink>
+        </li>
       </div>
     </>
   );
   return (
-    <div className="navbar lg:justify-between dark:bg-blue-900 dark:text-white bg-base-100">
+    <div className="navbar lg:justify-between dark:bg-blue-900 dark:text-white bg-gray-100">
       <div className="navbar-start">
         <div className="dropdown">
           <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
